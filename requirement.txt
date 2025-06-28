@@ -1,0 +1,4 @@
+flask==2.2.5
+flask-cors
+rasa==2.8.17
+requests
