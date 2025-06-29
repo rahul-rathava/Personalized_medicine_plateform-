@@ -1,0 +1,82 @@
+🧬 Variant Analysis Completed.
+Total variants found: 67
+
+🔎 Variants:
+Position 2: A → G
+Position 3: T → C
+Position 5: G → T
+Position 6: G → A
+Position 7: C → G
+Position 9: A → T
+Position 11: C → G
+Position 12: T → C
+Position 13: G → T
+Position 14: G → A
+Position 15: T → A
+Position 16: T → C
+Position 17: G → C
+Position 18: A → G
+Position 19: C → G
+Position 20: C → T
+Position 22: G → A
+Position 23: A → G
+Position 24: A → G
+Position 28: G → A
+Position 29: G → T
+Position 31: T → G
+Position 32: A → 
+Position 33: G → 
+
+Position 34: C → T
+Position 37: A → G
+Position 38: G → C
+Position 39: G → T
+Position 40: T → A
+Position 41: T → G
+Position 42: A → C
+Position 43: G → T
+Position 44: C → G
+Position 45: T → A
+Position 46: A → T
+Position 47: G → C
+Position 48: C → G
+Position 49: T → A
+Position 50: A → T
+Position 51: G → C
+Position 53: C → G
+Position 54: T → C
+Position 55: A → T
+Position 56: G → A
+Position 57: C → A
+Position 59: A → C
+Position 61: G → A
+Position 62: C → T
+Position 63: T → C
+Position 64: A → G
+Position 65: G → 
+Position 66: C → 
+
+Position 72: A → G
+Position 73: G → C
+Position 74: G → T
+Position 75: C → A
+Position 76: T → G
+Position 77: A → C
+Position 78: G → A
+Position 79: G → T
+Position 81: T → G
+Position 83: A → T
+Position 84: G → C
+Position 86: T → A
+Position 95: G → C
+Position 96: C → T
+Position 97: T → A
+
+🧠 Disease Risk Insights:
+Position 6: Risk of migraine-related mutation (G→A)
+Position 14: Risk of migraine-related mutation (G→A)
+Position 22: Risk of migraine-related mutation (G→A)
+Position 28: Risk of migraine-related mutation (G→A)
+Position 56: Risk of migraine-related mutation (G→A)
+Position 61: Risk of migraine-related mutation (G→A)
+Position 78: Risk of migraine-related mutation (G→A)

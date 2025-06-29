@@ -1,0 +1,19 @@
+{
+    "counts": {
+        "A": 20,
+        "T": 19,
+        "G": 20,
+        "C": 18
+    },
+    "total": 77,
+    "variants": [
+        "AA \u2192 GG"
+    ],
+    "disease_risks": [
+        "Increased risk for disease A",
+        "Possible risk of disease B"
+    ],
+    "drug_predictions": [
+        "AA\u2192GG \u2192 Sensitive to Drug Alpha"
+    ]
+}

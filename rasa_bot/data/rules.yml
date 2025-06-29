@@ -22,5 +22,12 @@ rules:
       - intent: provide_file
       - action: action_analyze_genome
 
+- rule: Provide treatment recommendation
+  steps:
+    - intent: recommend_treatment
+    - action: utter_ask_treatment
+    - action: action_recommend_treatment
+
+
 
 

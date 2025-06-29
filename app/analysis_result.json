@@ -1,0 +1,37 @@
+{
+    "counts": {
+        "A": 2,
+        "T": 3,
+        "G": 3,
+        "C": 2
+    },
+    "total": 10,
+    "variants": [
+        "A>T",
+        "G>A",
+        "C>G",
+        "T>G",
+        "C>T"
+    ],
+    "disease_risks": [
+        "Risk of Disease A",
+        "Predisposition to Disease B"
+    ],
+    "drug_predictions": [
+        "A>T \u2192 Poor response to Drug X",
+        "C>G \u2192 Adverse reaction to Drug Y",
+        "T>G \u2192 Good response to Drug Z"
+    ],
+    "treatments": [
+        "Try alternative to Drug X",
+        "Avoid Drug Y due to adverse reaction",
+        "Consider Drug Z as primary treatment"
+    ],
+    "biomarkers": [
+        "Gene G mutation \u2192 Biomarker X",
+        "C>T \u2192 Possible marker for Disease B"
+    ],
+    "clinical_notes": {
+        "error": "Invalid clinical JSON"
+    }
+}

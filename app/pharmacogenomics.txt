@@ -1,0 +1,5 @@
+# Format: gene_variant -> Drug Recommendation
+CYP2C19*2 -> Avoid Clopidogrel
+CYP2D6*4 -> Reduce Dose of Codeine
+TPMT*3A -> Reduce Dose of Azathioprine
+HLA-B*57:01 -> Avoid Abacavir

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personalized Genome Analysis</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            margin: 40px auto;
+            max-width: 800px;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #222;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-top: 30px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .section p {
+            margin: 8px 0;
+        }
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+        .variant {
+            font-family: monospace;
+            color: #555;
+        }
+        .result-label {
+            font-weight: bold;
+        }
+        .note-block {
+            background: #f0f0f0;
+            padding: 10px;
+            border-left: 4px solid #007acc;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+<h1>🧬 Personalized Genome Analysis Report</h1>
+
+<div class="section">
+    <h2><span class="emoji">📊</span> Basic Nucleotide Analysis</h2>
+    <p><span class="result-label">Total Characters:</span> {{ total }}</p>
+    <p class="variant">A: {{ counts.A }}, T: {{ counts.T }}, G: {{ counts.G }}, C: {{ counts.C }}</p>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🧪</span> Variants Detected</h2>
+    {% if variants %}
+        {% for var in variants %}
+            <p class="variant">{{ var }}</p>
+        {% endfor %}
+    {% else %}
+        <p>No variants detected.</p>
+    {% endif %}
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🧠</span> Disease Risk Insights</h2>
+    {% if risks %}
+        {% for risk in risks %}
+            <p>{{ risk }}</p>
+        {% endfor %}
+    {% else %}
+        <p>No significant risks found.</p>
+    {% endif %}
+</div>
+
+<div class="section">
+    <h2><span class="emoji">💊</span> Drug Response Predictions</h2>
+    {% if drug_responses %}
+        {% for dr in drug_responses %}
+            <p>{{ dr }}</p>
+        {% endfor %}
+    {% else %}
+        <p>No notable drug response patterns.</p>
+    {% endif %}
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🧩</span> Personalized Treatment Recommendations</h2>
+    {% if treatments %}
+        {% for t in treatments %}
+            <p>{{ t }}</p>
+        {% endfor %}
+    {% else %}
+        <p>No recommendations at this time.</p>
+    {% endif %}
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🔬</span> Biomarker Insights</h2>
+    {% if biomarkers %}
+        {% for bm in biomarkers %}
+            <p>{{ bm }}</p>
+        {% endfor %}
+    {% else %}
+        <p>No known biomarkers detected.</p>
+    {% endif %}
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🧾</span> Clinical Notes</h2>
+    {% if clinical_notes %}
+        {% for key, val in clinical_notes.items() %}
+            <div class="note-block"><strong>{{ key }}:</strong> {{ val }}</div>
+        {% endfor %}
+    {% else %}
+        <p>No clinical notes provided.</p>
+    {% endif %}
+</div>
+
+</body>
+</html>

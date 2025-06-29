@@ -1,0 +1,19 @@
+✅ Genome Analysis Complete:
+A: 15, T: 13, G: 15, C: 12, Total: 55
+Variants Detected: 6
+
+🧬 Variants:
+Position 6: T → A
+Position 7: A → T
+Position 10: T → A
+Position 11: A → T
+Position 12: G → C
+Position 13: C → G
+
+🧠 Disease Risks:
+High risk for Condition A
+
+💊 Drug Response Prediction:
+DrugX: Adverse response
+DrugY: Poor response
+DrugZ: Adverse response

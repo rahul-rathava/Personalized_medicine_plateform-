@@ -1,0 +1,16 @@
+Base,Count
+A,20
+T,19
+G,20
+C,18
+Total,77
+
+Variants
+AA → GG
+
+Disease Risks
+Increased risk for disease A
+Possible risk of disease B
+
+Drug Predictions
+AA→GG → Sensitive to Drug Alpha

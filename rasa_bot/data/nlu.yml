@@ -98,3 +98,9 @@ nlu:
     - Please scan my DNA file
     - Analyze this genome file
 
+- intent: recommend_treatment
+  examples: |
+    - Can you suggest treatment?
+    - What treatment is suitable?
+    - Recommend me some medication.
+    - Any treatment for my genome?

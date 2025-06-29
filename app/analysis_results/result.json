@@ -1,0 +1,57 @@
+{
+    "A": 24,
+    "T": 24,
+    "G": 24,
+    "C": 21,
+    "Total": 93,
+    "Variants": [
+        {
+            "position": 32,
+            "unexpected_base": "\r"
+        },
+        {
+            "position": 33,
+            "unexpected_base": "\n"
+        },
+        {
+            "position": 65,
+            "unexpected_base": "\r"
+        },
+        {
+            "position": 66,
+            "unexpected_base": "\n"
+        },
+        {
+            "position": 98,
+            "unexpected_base": "\r"
+        },
+        {
+            "position": 99,
+            "unexpected_base": "\n"
+        },
+        {
+            "position": 100,
+            "unexpected_base": "\r"
+        },
+        {
+            "position": 101,
+            "unexpected_base": "\n"
+        },
+        {
+            "position": 102,
+            "unexpected_base": "\r"
+        },
+        {
+            "position": 103,
+            "unexpected_base": "\n"
+        },
+        {
+            "position": 104,
+            "unexpected_base": "\r"
+        },
+        {
+            "position": 105,
+            "unexpected_base": "\n"
+        }
+    ]
+}
